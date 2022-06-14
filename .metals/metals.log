@@ -876,3 +876,1568 @@ java.nio.file.NoSuchFileException: /home/han/play-taskList/play-scala-seed/app/c
 2022.06.13 22:16:18 INFO  time: compiled root in 0.59s[0m
 Jun 13, 2022 10:59:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.06.14 21:03:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/play-scala/play-scala-seed/.metals/lsp.trace.json or /home/pcdm/.cache/metals/lsp.trace.json
+2022.06.14 21:03:03 INFO  logging to file /home/pcdm/hann/play-scala/play-scala-seed/.metals/metals.log
+2022.06.14 21:03:03 INFO  Started: Metals version 0.11.6 in workspace '/home/pcdm/hann/play-scala/play-scala-seed' for client Visual Studio Code 1.67.1.
+2022.06.14 21:03:03 INFO  time: initialize in 0.36s
+2022.06.14 21:03:07 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.14 21:03:07 INFO  Attempting to connect to the build server...
+2022.06.14 21:03:07 ERROR Starting the bsp launcher for bloop...
+2022.06.14 21:03:07 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1684109784670999937/bsp.socket'...
+2022.06.14 21:03:07 ERROR Waiting for the bsp connection to come up...
+2022.06.14 21:03:07 ERROR error: The command bsp --protocol local --socket /tmp/bsp-launcher1684109784670999937/bsp.socket returned with an error
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/pcdm/hann/play-scala/play-scala-seed/.bloop'...
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading project from '/home/pcdm/hann/play-scala/play-scala-seed/.bloop/root-test.json'
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading project from '/home/pcdm/hann/play-scala/play-scala-seed/.bloop/root.json'
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.8.
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Elapsed: 2.806026 ms
+2022.06.14 21:03:07 ERROR > [0m[31m[E][0m Failed to load project from /home/pcdm/hann/play-scala/play-scala-seed/.bloop/root.json
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/pcdm/hann/play-scala/play-scala-seed/.bloop/root.json
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.8.
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:290)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:257)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:181)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:186)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:186)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:307)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:302)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:284)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:257)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.14 21:03:07 ERROR error: Trying a tcp-based connection to the server instead...
+2022.06.14 21:03:07 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 22273'...
+2022.06.14 21:03:07 ERROR Waiting for the bsp connection to come up...
+2022.06.14 21:03:07 ERROR error: The command bsp --protocol tcp --port 22273 returned with an error
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/pcdm/hann/play-scala/play-scala-seed/.bloop'...
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading project from '/home/pcdm/hann/play-scala/play-scala-seed/.bloop/root.json'
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Loading project from '/home/pcdm/hann/play-scala/play-scala-seed/.bloop/root-test.json'
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.8.
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Elapsed: 2.032472 ms
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[33m[W][0m Scala instance jar /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist!
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.8.
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[32m[D][0m   => /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[31m[E][0m Failed to load project from /home/pcdm/hann/play-scala/play-scala-seed/.bloop/root.json
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/pcdm/hann/play-scala/play-scala-seed/.bloop/root.json
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:290)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:257)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/han/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:181)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:186)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:186)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:307)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:302)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:284)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:257)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.06.14 21:03:07 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.14 21:03:07 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.06.14 21:03:07 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:434)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.06.14 21:03:20 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14347702212038159377/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.14 21:03:21 INFO  [info] welcome to sbt 1.6.2 (Private Build Java 11.0.15)
+2022.06.14 21:03:21 INFO  [info] loading settings for project play-scala-seed-build-build-build from metals.sbt ...
+2022.06.14 21:03:21 INFO  [info] loading project definition from /home/pcdm/hann/play-scala/play-scala-seed/project/project/project
+2022.06.14 21:03:22 INFO  [info] loading settings for project play-scala-seed-build-build from metals.sbt ...
+2022.06.14 21:03:22 INFO  [info] loading project definition from /home/pcdm/hann/play-scala/play-scala-seed/project/project
+2022.06.14 21:03:24 INFO  [success] Generated .bloop/play-scala-seed-build-build.json
+2022.06.14 21:03:24 INFO  [success] Total time: 2 s, completed Jun 14, 2022, 9:03:24 PM
+2022.06.14 21:03:24 INFO  [info] loading settings for project play-scala-seed-build from metals.sbt,plugins.sbt ...
+2022.06.14 21:03:24 INFO  [info] loading project definition from /home/pcdm/hann/play-scala/play-scala-seed/project
+2022.06.14 21:03:31 INFO  [success] Generated .bloop/play-scala-seed-build.json
+2022.06.14 21:03:31 INFO  [success] Total time: 7 s, completed Jun 14, 2022, 9:03:31 PM
+2022.06.14 21:03:31 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.14 21:03:31 INFO  [info]   __              __
+2022.06.14 21:03:31 INFO  [info]   \ \     ____   / /____ _ __  __
+2022.06.14 21:03:31 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2022.06.14 21:03:31 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2022.06.14 21:03:31 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2022.06.14 21:03:31 INFO  [info]       /_/               /____/
+2022.06.14 21:03:31 INFO  [info] 
+2022.06.14 21:03:31 INFO  [info] Version 2.8.16 running Java 11.0.15
+2022.06.14 21:03:31 INFO  [info] 
+2022.06.14 21:03:31 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2022.06.14 21:03:31 INFO  [info] https://www.playframework.com/sponsors
+2022.06.14 21:03:31 INFO  [info] 
+2022.06.14 21:03:41 INFO  [success] Generated .bloop/root-test.json
+2022.06.14 21:03:41 INFO  [success] Generated .bloop/root.json
+2022.06.14 21:03:41 INFO  [success] Total time: 9 s, completed Jun 14, 2022, 9:03:41 PM
+2022.06.14 21:03:41 INFO  time: ran 'sbt bloopInstall' in 21s
+2022.06.14 21:03:41 INFO  Attempting to connect to the build server...
+2022.06.14 21:03:53 WARN  no build target for: /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:03:56 INFO  no build target found for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.14 21:03:57 INFO  time: code lens generation in 3.94s
+2022.06.14 21:04:00 WARN  no build target for: /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:04:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/play-scala/play-scala-seed/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2022.06.14 21:04:01 INFO  Attempting to connect to the build server...
+2022.06.14 21:04:01 INFO  Attempting to connect to the build server...
+2022.06.14 21:04:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/play-scala/play-scala-seed/project/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+2022.06.14 21:04:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pcdm/hann/play-scala/play-scala-seed/project/.metals/bsp.trace.json or /home/pcdm/.cache/metals/bsp.trace.json
+Jun 14, 2022 9:04:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2022.06.14 21:04:13 INFO  time: Connected to build server in 31s
+2022.06.14 21:04:13 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.14 21:04:19 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.14 21:04:21 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.14 21:04:21 INFO  time: indexed workspace in 7.83s
+2022.06.14 21:04:21 INFO  compiling root (11 scala sources and 1 java source)
+2022.06.14 21:04:24 INFO  time: compiled root in 2.46s
+2022.06.14 21:04:24 INFO  compiling root-test (1 scala source)
+2022.06.14 21:04:24 INFO  time: compiled root-test in 0.36s
+2022.06.14 21:05:42 INFO  compiling root (1 scala source)
+2022.06.14 21:05:42 INFO  time: compiled root in 0.42s
+2022.06.14 21:07:00 INFO  compiling root (1 scala source)
+2022.06.14 21:07:00 INFO  time: compiled root in 73ms
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[<error>]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 201)
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[<error>]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 194)
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[<error>]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 195)
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[<error>]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 196)
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[<error>]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 198)
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[String]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 199)
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[String]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 199)
+something's wrong: no file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala in List[String]RangePosition(file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala, 187, 187, 199)
+2022.06.14 21:07:22 INFO  compiling root (1 scala source)
+2022.06.14 21:07:22 INFO  time: compiled root in 0.36s
+2022.06.14 21:07:44 INFO  compiling root (1 scala source)
+2022.06.14 21:07:44 INFO  time: compiled root in 77ms
+2022.06.14 21:07:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:07:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:09 INFO  compiling root (1 scala source)
+2022.06.14 21:08:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:08:09 INFO  time: compiled root in 0.33s
+2022.06.14 21:08:40 INFO  compiling root (1 scala source)
+2022.06.14 21:08:40 INFO  time: compiled root in 64ms
+2022.06.14 21:08:45 INFO  compiling root (1 scala source)
+2022.06.14 21:08:45 INFO  time: compiled root in 0.35s
+2022.06.14 21:09:15 INFO  compiling root (1 scala source)
+2022.06.14 21:09:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:09:15 INFO  time: compiled root in 0.39s
+2022.06.14 21:09:26 INFO  compiling root (1 scala source)
+2022.06.14 21:09:26 INFO  time: compiled root in 71ms
+2022.06.14 21:09:41 INFO  compiling root (1 scala source)
+2022.06.14 21:09:41 INFO  time: compiled root in 67ms
+2022.06.14 21:10:37 INFO  compiling root (1 scala source)
+2022.06.14 21:10:37 INFO  time: compiled root in 0.37s
+2022.06.14 21:12:41 INFO  compiling root (1 scala source)
+2022.06.14 21:12:41 INFO  time: compiled root in 57ms
+2022.06.14 21:12:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:46 INFO  compiling root (1 scala source)
+2022.06.14 21:12:46 INFO  time: compiled root in 31ms
+2022.06.14 21:12:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+Jun 14, 2022 9:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 976
+2022.06.14 21:12:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:12:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:03 INFO  compiling root (1 scala source)
+2022.06.14 21:13:03 INFO  time: compiled root in 59ms
+2022.06.14 21:13:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:19 INFO  compiling root (1 scala source)
+2022.06.14 21:13:19 INFO  time: compiled root in 53ms
+2022.06.14 21:13:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:31 INFO  compiling root (1 scala source)
+2022.06.14 21:13:31 INFO  time: compiled root in 60ms
+2022.06.14 21:13:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:34 INFO  compiling root (1 scala source)
+2022.06.14 21:13:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 21:13:34 INFO  time: compiled root in 0.34s
+2022.06.14 21:16:13 INFO  compiling root (1 scala source)
+2022.06.14 21:16:13 INFO  time: compiled root in 75ms
+2022.06.14 21:16:35 INFO  compiling root (2 scala sources)
+2022.06.14 21:16:35 INFO  time: compiled root in 93ms
+2022.06.14 21:18:11 INFO  compiling root (5 scala sources)
+2022.06.14 21:18:11 INFO  time: compiled root in 0.21s
+2022.06.14 21:19:10 INFO  compiling root (5 scala sources)
+2022.06.14 21:19:11 INFO  time: compiled root in 1.11s
+2022.06.14 21:19:11 INFO  compiling root (3 scala sources and 1 java source)
+2022.06.14 21:19:11 INFO  time: compiled root in 0.51s
+2022.06.14 21:19:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:19:33 INFO  compiling root (1 scala source)
+2022.06.14 21:19:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:19:33 INFO  time: compiled root in 0.38s
+2022.06.14 21:19:38 INFO  compiling root (1 scala source)
+2022.06.14 21:19:38 INFO  time: compiled root in 0.36s
+Jun 14, 2022 9:24:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1314
+2022.06.14 21:24:09 INFO  compiling root (1 scala source)
+2022.06.14 21:24:09 INFO  time: compiled root in 62ms
+2022.06.14 21:24:40 INFO  compiling root (1 scala source)
+2022.06.14 21:24:40 INFO  time: compiled root in 0.37s
+2022.06.14 21:25:10 INFO  compiling root (1 scala source)
+2022.06.14 21:25:10 INFO  time: compiled root in 0.37s
+2022.06.14 21:25:31 INFO  compiling root (1 scala source)
+2022.06.14 21:25:31 INFO  time: compiled root in 62ms
+2022.06.14 21:25:45 INFO  compiling root (1 scala source)
+2022.06.14 21:25:45 INFO  time: compiled root in 60ms
+2022.06.14 21:26:12 INFO  compiling root (1 scala source)
+2022.06.14 21:26:12 INFO  time: compiled root in 69ms
+2022.06.14 21:26:18 INFO  compiling root (1 scala source)
+2022.06.14 21:26:18 INFO  time: compiled root in 72ms
+2022.06.14 21:27:06 INFO  compiling root (1 scala source)
+2022.06.14 21:27:06 INFO  time: compiled root in 72ms
+2022.06.14 21:27:17 INFO  compiling root (1 scala source)
+2022.06.14 21:27:17 INFO  time: compiled root in 32ms
+2022.06.14 21:27:52 INFO  compiling root (1 scala source)
+2022.06.14 21:27:52 INFO  time: compiled root in 32ms
+2022.06.14 21:28:10 INFO  compiling root (1 scala source)
+2022.06.14 21:28:10 INFO  time: compiled root in 68ms
+2022.06.14 21:28:25 INFO  compiling root (1 scala source)
+2022.06.14 21:28:25 INFO  time: compiled root in 63ms
+2022.06.14 21:28:32 INFO  compiling root (1 scala source)
+2022.06.14 21:28:32 INFO  time: compiled root in 0.39s
+2022.06.14 21:28:47 INFO  compiling root (1 scala source)
+2022.06.14 21:28:47 INFO  time: compiled root in 0.37s
+2022.06.14 21:28:47 INFO  compiling root (1 scala source)
+2022.06.14 21:28:47 INFO  time: compiled root in 0.39s
+2022.06.14 21:28:52 INFO  compiling root (1 scala source)
+2022.06.14 21:28:52 INFO  time: compiled root in 62ms
+2022.06.14 21:28:58 INFO  compiling root (1 scala source)
+2022.06.14 21:28:58 INFO  time: compiled root in 0.36s
+2022.06.14 21:28:58 INFO  compiling root (1 scala source)
+2022.06.14 21:28:58 INFO  time: compiled root in 0.38s
+2022.06.14 21:31:13 INFO  compiling root (1 scala source)
+2022.06.14 21:31:13 INFO  time: compiled root in 0.31s
+2022.06.14 21:32:49 INFO  compiling root (1 scala source)
+2022.06.14 21:32:49 INFO  time: compiled root in 35ms
+2022.06.14 21:33:05 INFO  compiling root (1 scala source)
+2022.06.14 21:33:05 INFO  time: compiled root in 58ms
+2022.06.14 21:33:30 INFO  compiling root (1 scala source)
+2022.06.14 21:33:30 INFO  time: compiled root in 0.37s
+2022.06.14 21:35:12 INFO  compiling root (4 scala sources and 1 java source)
+2022.06.14 21:35:12 INFO  time: compiled root in 0.15s
+2022.06.14 21:36:36 INFO  compiling root (4 scala sources and 1 java source)
+2022.06.14 21:36:36 INFO  time: compiled root in 0.17s
+2022.06.14 21:37:19 INFO  compiling root (4 scala sources)
+2022.06.14 21:37:19 INFO  time: compiled root in 0.14s
+2022.06.14 21:42:19 INFO  compiling root (4 scala sources)
+2022.06.14 21:42:19 INFO  time: compiled root in 0.77s
+2022.06.14 21:42:19 INFO  compiling root (1 scala source and 1 java source)
+2022.06.14 21:42:19 INFO  time: compiled root in 0.2s
+2022.06.14 21:44:30 INFO  compiling root (2 scala sources)
+2022.06.14 21:44:30 INFO  time: compiled root in 0.12s
+2022.06.14 21:45:15 INFO  compiling root (2 scala sources)
+2022.06.14 21:45:15 INFO  time: compiled root in 0.17s
+2022.06.14 21:46:40 INFO  compiling root (3 scala sources)
+2022.06.14 21:46:40 INFO  time: compiled root in 0.13s
+2022.06.14 21:46:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:46:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:46:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:46:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:46:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:46:54 INFO  compiling root (3 scala sources)
+2022.06.14 21:46:54 INFO  time: compiled root in 0.12s
+2022.06.14 21:46:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:39 INFO  compiling root (3 scala sources)
+2022.06.14 21:47:39 INFO  time: compiled root in 0.12s
+2022.06.14 21:47:39 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:47:46 INFO  compiling root (3 scala sources)
+2022.06.14 21:47:46 INFO  time: compiled root in 0.12s
+2022.06.14 21:47:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:48:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:48:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:22 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:25 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:27 INFO  compiling root (3 scala sources)
+2022.06.14 21:49:27 INFO  time: compiled root in 0.12s
+2022.06.14 21:49:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:35 INFO  compiling root (3 scala sources)
+2022.06.14 21:49:35 INFO  time: compiled root in 0.12s
+2022.06.14 21:49:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:42 INFO  compiling root (3 scala sources)
+2022.06.14 21:49:42 INFO  time: compiled root in 0.1s
+2022.06.14 21:49:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:47 INFO  compiling root (3 scala sources)
+2022.06.14 21:49:47 INFO  time: compiled root in 0.1s
+2022.06.14 21:49:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:49 INFO  compiling root (3 scala sources)
+2022.06.14 21:49:49 INFO  time: compiled root in 0.11s
+2022.06.14 21:49:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:49:52 INFO  compiling root (2 scala sources)
+2022.06.14 21:49:52 INFO  time: compiled root in 0.69s
+2022.06.14 21:49:52 INFO  compiling root (1 scala source)
+2022.06.14 21:49:52 INFO  time: compiled root in 41ms
+2022.06.14 21:50:02 INFO  compiling root (3 scala sources)
+2022.06.14 21:50:02 INFO  time: compiled root in 95ms
+2022.06.14 21:50:03 INFO  compiling root (3 scala sources)
+2022.06.14 21:50:03 INFO  time: compiled root in 79ms
+2022.06.14 21:50:03 INFO  compiling root (3 scala sources)
+2022.06.14 21:50:03 INFO  compiling root (3 scala sources)
+2022.06.14 21:50:03 INFO  time: compiled root in 72ms
+2022.06.14 21:50:03 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 46m 2.267s)
+2022.06.14 21:50:03 INFO  compiling root (3 scala sources)
+2022.06.14 21:50:03 INFO  time: compiled root in 21ms
+2022.06.14 21:50:18 INFO  compiling root (3 scala sources)
+2022.06.14 21:50:18 INFO  time: compiled root in 0.74s
+2022.06.14 21:52:21 INFO  compiling root (1 scala source)
+2022.06.14 21:52:21 INFO  time: compiled root in 0.58s
+2022.06.14 21:53:13 INFO  compiling root (1 scala source)
+2022.06.14 21:53:13 INFO  time: compiled root in 64ms
+2022.06.14 21:54:25 INFO  compiling root (1 scala source)
+2022.06.14 21:54:25 INFO  time: compiled root in 0.37s
+2022.06.14 21:54:44 INFO  compiling root (1 scala source)
+2022.06.14 21:54:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:54:44 INFO  time: compiled root in 0.36s
+2022.06.14 21:54:54 INFO  compiling root (1 scala source)
+2022.06.14 21:54:54 INFO  time: compiled root in 0.37s
+2022.06.14 21:55:05 INFO  compiling root (1 scala source)
+2022.06.14 21:55:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 21:55:05 INFO  time: compiled root in 0.36s
+2022.06.14 21:55:12 INFO  compiling root (1 scala source)
+2022.06.14 21:55:12 INFO  time: compiled root in 0.36s
+2022.06.14 21:56:33 INFO  compiling root (1 scala source)
+2022.06.14 21:56:33 INFO  time: compiled root in 0.33s
+2022.06.14 21:56:33 INFO  compiling root (1 scala source)
+2022.06.14 21:56:33 INFO  time: compiled root in 0.16s
+2022.06.14 21:58:46 INFO  compiling root (3 scala sources)
+2022.06.14 21:58:46 INFO  time: compiled root in 0.42s
+2022.06.14 21:58:46 INFO  compiling root (3 scala sources)
+2022.06.14 21:58:46 INFO  time: compiled root in 0.4s
+2022.06.14 21:59:54 INFO  compiling root (1 scala source)
+2022.06.14 21:59:54 INFO  time: compiled root in 0.32s
+2022.06.14 22:00:25 INFO  compiling root (1 scala source)
+2022.06.14 22:00:25 INFO  time: compiled root in 0.34s
+2022.06.14 22:01:03 INFO  compiling root (1 scala source)
+2022.06.14 22:01:03 INFO  time: compiled root in 55ms
+2022.06.14 22:01:21 INFO  compiling root (1 scala source)
+2022.06.14 22:01:21 INFO  time: compiled root in 0.36s
+2022.06.14 22:03:15 INFO  compiling root (1 scala source)
+2022.06.14 22:03:15 INFO  time: compiled root in 0.36s
+2022.06.14 22:06:45 INFO  compiling root (4 scala sources)
+2022.06.14 22:06:45 INFO  time: compiled root in 0.71s
+2022.06.14 22:06:45 INFO  compiling root (2 scala sources and 1 java source)
+2022.06.14 22:06:45 INFO  time: compiled root in 0.25s
+2022.06.14 22:07:18 INFO  compiling root (1 scala source)
+2022.06.14 22:07:18 INFO  time: compiled root in 58ms
+2022.06.14 22:07:28 INFO  compiling root (1 scala source)
+2022.06.14 22:07:28 INFO  time: compiled root in 0.38s
+2022.06.14 22:07:36 INFO  compiling root (1 scala source)
+2022.06.14 22:07:36 INFO  time: compiled root in 0.36s
+2022.06.14 22:07:59 INFO  compiling root (1 scala source)
+2022.06.14 22:07:59 INFO  time: compiled root in 0.36s
+2022.06.14 22:08:23 INFO  compiling root (1 scala source)
+2022.06.14 22:08:23 INFO  time: compiled root in 64ms
+2022.06.14 22:08:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:37 INFO  compiling root (1 scala source)
+2022.06.14 22:08:37 INFO  time: compiled root in 53ms
+2022.06.14 22:08:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:08:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:03 INFO  compiling root (1 scala source)
+2022.06.14 22:09:03 INFO  time: compiled root in 63ms
+2022.06.14 22:09:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:22 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:22 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:36 INFO  compiling root (1 scala source)
+2022.06.14 22:09:36 INFO  time: compiled root in 65ms
+2022.06.14 22:09:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:41 INFO  compiling root (1 scala source)
+2022.06.14 22:09:41 INFO  time: compiled root in 60ms
+2022.06.14 22:09:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:50 INFO  compiling root (1 scala source)
+2022.06.14 22:09:50 INFO  time: compiled root in 54ms
+2022.06.14 22:09:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:09:59 INFO  compiling root (1 scala source)
+2022.06.14 22:09:59 INFO  time: compiled root in 53ms
+2022.06.14 22:09:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:17 INFO  compiling root (1 scala source)
+2022.06.14 22:10:17 INFO  time: compiled root in 54ms
+2022.06.14 22:10:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:34 INFO  compiling root (1 scala source)
+2022.06.14 22:10:34 INFO  time: compiled root in 57ms
+2022.06.14 22:10:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:10:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:05 INFO  compiling root (1 scala source)
+2022.06.14 22:11:05 INFO  time: compiled root in 59ms
+2022.06.14 22:11:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:10 INFO  compiling root (1 scala source)
+2022.06.14 22:11:10 INFO  time: compiled root in 54ms
+2022.06.14 22:11:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:22 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:22 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:22 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:25 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:25 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:25 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:29 INFO  compiling root (1 scala source)
+2022.06.14 22:11:29 INFO  time: compiled root in 55ms
+2022.06.14 22:11:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:36 INFO  compiling root (1 scala source)
+2022.06.14 22:11:36 INFO  time: compiled root in 55ms
+2022.06.14 22:11:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:38 INFO  compiling root (1 scala source)
+2022.06.14 22:11:38 INFO  time: compiled root in 54ms
+2022.06.14 22:11:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:11:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 INFO  compiling root (1 scala source)
+2022.06.14 22:12:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:15 INFO  time: compiled root in 62ms
+2022.06.14 22:12:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:17 INFO  compiling root (1 scala source)
+2022.06.14 22:12:17 INFO  time: compiled root in 51ms
+2022.06.14 22:12:17 INFO  compiling root (1 scala source)
+2022.06.14 22:12:17 INFO  time: compiled root in 42ms
+2022.06.14 22:12:17 INFO  compiling root (1 scala source)
+2022.06.14 22:12:17 INFO  time: compiled root in 34ms
+2022.06.14 22:12:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:18 INFO  compiling root (1 scala source)
+2022.06.14 22:12:18 INFO  time: compiled root in 35ms
+2022.06.14 22:12:18 INFO  compiling root (1 scala source)
+2022.06.14 22:12:18 INFO  time: compiled root in 41ms
+2022.06.14 22:12:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:34 INFO  compiling root (1 scala source)
+2022.06.14 22:12:34 INFO  time: compiled root in 52ms
+2022.06.14 22:12:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:39 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:40 INFO  compiling root (1 scala source)
+2022.06.14 22:12:40 INFO  time: compiled root in 55ms
+2022.06.14 22:12:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:12:54 INFO  compiling root (1 scala source)
+2022.06.14 22:12:54 INFO  time: compiled root in 53ms
+2022.06.14 22:12:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:04 INFO  compiling root (1 scala source)
+2022.06.14 22:16:04 INFO  time: compiled root in 57ms
+2022.06.14 22:16:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:16:24 INFO  compiling root (1 scala source)
+2022.06.14 22:16:24 INFO  time: compiled root in 65ms
+2022.06.14 22:16:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:02 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:02 INFO  time: compiled root in 56ms
+2022.06.14 22:18:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:07 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:07 INFO  time: compiled root in 59ms
+2022.06.14 22:18:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:07 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:07 INFO  time: compiled root in 49ms
+2022.06.14 22:18:07 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:07 INFO  time: compiled root in 44ms
+2022.06.14 22:18:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:25 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:27 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:27 INFO  time: compiled root in 57ms
+2022.06.14 22:18:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:34 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:34 INFO  time: compiled root in 35ms
+2022.06.14 22:18:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:44 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:44 INFO  time: compiled root in 29ms
+2022.06.14 22:18:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:53 INFO  compiling root (2 scala sources)
+2022.06.14 22:18:53 INFO  time: compiled root in 33ms
+2022.06.14 22:18:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:18:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:04 INFO  compiling root (2 scala sources)
+2022.06.14 22:19:04 INFO  time: compiled root in 31ms
+2022.06.14 22:19:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+Jun 14, 2022 10:19:12 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2286, count -1, length 2305
+2022.06.14 22:19:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:14 INFO  compiling root (2 scala sources)
+2022.06.14 22:19:14 INFO  time: compiled root in 37ms
+2022.06.14 22:19:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:16 INFO  compiling root (2 scala sources)
+2022.06.14 22:19:16 INFO  time: compiled root in 62ms
+2022.06.14 22:19:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:21 INFO  compiling root (2 scala sources)
+2022.06.14 22:19:21 INFO  time: compiled root in 60ms
+2022.06.14 22:19:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:19:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:15 INFO  compiling root (2 scala sources)
+2022.06.14 22:20:15 INFO  time: compiled root in 58ms
+2022.06.14 22:20:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:25 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:25 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:39 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:39 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:20:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:26 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:30 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:46 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:57 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:21:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:17 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:21 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:23 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:28 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:44 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:45 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:47 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:49 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:22:52 INFO  compiling root (2 scala sources)
+2022.06.14 22:22:52 INFO  time: compiled root in 59ms
+2022.06.14 22:22:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:18 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:19 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:20 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/controllers/TaskList1.scala
+2022.06.14 22:23:20 INFO  compiling root (2 scala sources)
+2022.06.14 22:23:20 INFO  time: compiled root in 0.43s
+2022.06.14 22:24:03 INFO  compiling root (1 scala source)
+2022.06.14 22:24:03 INFO  time: compiled root in 0.37s
+2022.06.14 22:26:03 INFO  compiling root (1 scala source)
+2022.06.14 22:26:03 INFO  time: compiled root in 0.34s
+2022.06.14 22:28:44 INFO  compiling root (1 scala source)
+2022.06.14 22:28:44 INFO  time: compiled root in 56ms
+2022.06.14 22:28:51 INFO  compiling root (1 scala source)
+2022.06.14 22:28:51 INFO  time: compiled root in 0.38s
+2022.06.14 22:29:56 INFO  compiling root (4 scala sources)
+2022.06.14 22:29:56 INFO  time: compiled root in 0.94s
+2022.06.14 22:29:56 INFO  compiling root (1 scala source and 1 java source)
+2022.06.14 22:29:57 INFO  time: compiled root in 0.2s
+2022.06.14 22:30:37 INFO  compiling root (1 scala source)
+2022.06.14 22:30:37 INFO  time: compiled root in 0.38s
+2022.06.14 22:31:45 INFO  compiling root (1 scala source)
+2022.06.14 22:31:45 INFO  time: compiled root in 54ms
+2022.06.14 22:32:27 INFO  compiling root (2 scala sources)
+2022.06.14 22:32:27 INFO  time: compiled root in 65ms
+2022.06.14 22:32:33 INFO  compiling root (2 scala sources)
+2022.06.14 22:32:33 INFO  time: compiled root in 55ms
+2022.06.14 22:32:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:48 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:32:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:16 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:27 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:31 INFO  compiling root (2 scala sources)
+2022.06.14 22:33:31 INFO  time: compiled root in 31ms
+2022.06.14 22:33:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:31 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:32 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:33 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:34 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:37 INFO  file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala:28:3: stale bloop error: illegal start of simple expression
+  }
+  ^
+2022.06.14 22:33:37 INFO  file:///home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala:28:3: stale bloop error: illegal start of simple expression
+  }
+  ^
+2022.06.14 22:33:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:39 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:42 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:50 INFO  compiling root (2 scala sources)
+2022.06.14 22:33:50 INFO  time: compiled root in 29ms
+2022.06.14 22:33:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:56 INFO  compiling root (2 scala sources)
+2022.06.14 22:33:56 INFO  time: compiled root in 29ms
+2022.06.14 22:33:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:33:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:15 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:22 INFO  compiling root (2 scala sources)
+2022.06.14 22:34:22 INFO  time: compiled root in 27ms
+2022.06.14 22:34:22 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:24 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:29 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:35 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:36 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:37 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:38 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:39 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:40 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:41 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:43 INFO  compiling root (2 scala sources)
+2022.06.14 22:34:43 INFO  time: compiled root in 35ms
+2022.06.14 22:34:43 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:50 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:52 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:51 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:53 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:54 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:55 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:56 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:58 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:34:59 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:00 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:01 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:02 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:03 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:04 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:05 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:06 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:07 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:08 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:09 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:10 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:11 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:12 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:13 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:14 WARN  Could not load snapshot text for /home/pcdm/hann/play-scala/play-scala-seed/app/models/TaskListInMemoryModel.scala
+2022.06.14 22:35:16 INFO  compiling root (2 scala sources)
+2022.06.14 22:35:16 INFO  time: compiled root in 0.43s
+2022.06.14 22:37:10 INFO  compiling root (1 scala source)
+2022.06.14 22:37:10 INFO  time: compiled root in 0.36s
+Jun 14, 2022 10:44:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
